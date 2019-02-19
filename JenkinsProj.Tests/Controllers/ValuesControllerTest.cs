@@ -39,7 +39,7 @@ namespace JenkinsProj.Tests.Controllers
             string result = controller.Get(5);
 
             // Assert
-            Assert.AreEqual("values", result);
+            Assert.AreEqual("value", result);
         }
 
         [TestMethod]
